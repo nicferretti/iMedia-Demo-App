@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A43A0FF20B1F6B200F23AE4 /* FullScreenImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A43A0FE20B1F6B200F23AE4 /* FullScreenImageViewController.swift */; };
+		4A623AC620B0126300F5F859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A623AC520B0126300F5F859 /* AppDelegate.swift */; };
+		4A623AC820B0126300F5F859 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A623AC720B0126300F5F859 /* MapViewController.swift */; };
+		4A623ACB20B0126300F5F859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A623AC920B0126300F5F859 /* Main.storyboard */; };
+		4A623ACD20B0126500F5F859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A623ACC20B0126500F5F859 /* Assets.xcassets */; };
+		4A623AD020B0126500F5F859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A623ACE20B0126500F5F859 /* LaunchScreen.storyboard */; };
+		4A623ADB20B0126500F5F859 /* iMedia_Demo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A623ADA20B0126500F5F859 /* iMedia_Demo_AppTests.swift */; };
+		4A623AE620B0126500F5F859 /* iMedia_Demo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A623AE520B0126500F5F859 /* iMedia_Demo_AppUITests.swift */; };
+		4A69938A20B0192600DE4082 /* MapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A69938920B0192600DE4082 /* MapStyle.json */; };
+		4A69938C20B01A6800DE4082 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69938B20B01A6800DE4082 /* Venue.swift */; };
+		4A69938E20B026DA00DE4082 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69938D20B026DA00DE4082 /* Reachability.swift */; };
+		4A69939020B02A2300DE4082 /* Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69938F20B02A2300DE4082 /* Venues.swift */; };
+		4AB2E31C20B0732A00B4AA2E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2E31B20B0732A00B4AA2E /* Location.swift */; };
+		4AB2E31E20B0736E00B4AA2E /* VenueImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2E31D20B0736E00B4AA2E /* VenueImage.swift */; };
+		4AB2E32020B07B1D00B4AA2E /* VenueImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2E31F20B07B1D00B4AA2E /* VenueImagesViewController.swift */; };
+		4AB2E32320B081C900B4AA2E /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2E32220B081C900B4AA2E /* ImageTableViewCell.swift */; };
+		7FDEFE1848F778B9EBA1E1B5 /* Pods_iMedia_Demo_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A159CE2DEAE9672D178C25 /* Pods_iMedia_Demo_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A623AD720B0126500F5F859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A623ABA20B0126300F5F859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A623AC120B0126300F5F859;
+			remoteInfo = "iMedia Demo App";
+		};
+		4A623AE220B0126500F5F859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A623ABA20B0126300F5F859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A623AC120B0126300F5F859;
+			remoteInfo = "iMedia Demo App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A43A0FE20B1F6B200F23AE4 /* FullScreenImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageViewController.swift; sourceTree = "<group>"; };
+		4A623AC220B0126300F5F859 /* iMedia Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iMedia Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A623AC520B0126300F5F859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A623AC720B0126300F5F859 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4A623ACA20B0126300F5F859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A623ACC20B0126500F5F859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A623ACF20B0126500F5F859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A623AD120B0126500F5F859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A623AD620B0126500F5F859 /* iMedia Demo AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iMedia Demo AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A623ADA20B0126500F5F859 /* iMedia_Demo_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMedia_Demo_AppTests.swift; sourceTree = "<group>"; };
+		4A623ADC20B0126500F5F859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A623AE120B0126500F5F859 /* iMedia Demo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iMedia Demo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A623AE520B0126500F5F859 /* iMedia_Demo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMedia_Demo_AppUITests.swift; sourceTree = "<group>"; };
+		4A623AE720B0126500F5F859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A69938920B0192600DE4082 /* MapStyle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MapStyle.json; sourceTree = "<group>"; };
+		4A69938B20B01A6800DE4082 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		4A69938D20B026DA00DE4082 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4A69938F20B02A2300DE4082 /* Venues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venues.swift; sourceTree = "<group>"; };
+		4AB2E31B20B0732A00B4AA2E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		4AB2E31D20B0736E00B4AA2E /* VenueImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueImage.swift; sourceTree = "<group>"; };
+		4AB2E31F20B07B1D00B4AA2E /* VenueImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueImagesViewController.swift; sourceTree = "<group>"; };
+		4AB2E32220B081C900B4AA2E /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		697D73104D3A9ACD253ABF0E /* Pods-iMedia Demo App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMedia Demo App.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMedia Demo App/Pods-iMedia Demo App.release.xcconfig"; sourceTree = "<group>"; };
+		74A159CE2DEAE9672D178C25 /* Pods_iMedia_Demo_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMedia_Demo_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEECA4BB77A311533BC18D22 /* Pods-iMedia Demo App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMedia Demo App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMedia Demo App/Pods-iMedia Demo App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A623ABF20B0126300F5F859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDEFE1848F778B9EBA1E1B5 /* Pods_iMedia_Demo_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A623AD320B0126500F5F859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A623ADE20B0126500F5F859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		213D17B488A4432ECBD21EE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74A159CE2DEAE9672D178C25 /* Pods_iMedia_Demo_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A623AB920B0126300F5F859 = {
+			isa = PBXGroup;
+			children = (
+				4A69938920B0192600DE4082 /* MapStyle.json */,
+				4A69938D20B026DA00DE4082 /* Reachability.swift */,
+				4A623AF320B0132D00F5F859 /* Model */,
+				4AB2E32120B081AB00B4AA2E /* View */,
+				4A623AF420B0133400F5F859 /* Controller */,
+				4A623AC420B0126300F5F859 /* iMedia Demo App */,
+				4A623AD920B0126500F5F859 /* iMedia Demo AppTests */,
+				4A623AE420B0126500F5F859 /* iMedia Demo AppUITests */,
+				4A623AC320B0126300F5F859 /* Products */,
+				580230340CE9AD4772C56586 /* Pods */,
+				213D17B488A4432ECBD21EE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A623AC320B0126300F5F859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A623AC220B0126300F5F859 /* iMedia Demo App.app */,
+				4A623AD620B0126500F5F859 /* iMedia Demo AppTests.xctest */,
+				4A623AE120B0126500F5F859 /* iMedia Demo AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A623AC420B0126300F5F859 /* iMedia Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				4A623AC520B0126300F5F859 /* AppDelegate.swift */,
+				4A623AC920B0126300F5F859 /* Main.storyboard */,
+				4A623ACC20B0126500F5F859 /* Assets.xcassets */,
+				4A623ACE20B0126500F5F859 /* LaunchScreen.storyboard */,
+				4A623AD120B0126500F5F859 /* Info.plist */,
+			);
+			path = "iMedia Demo App";
+			sourceTree = "<group>";
+		};
+		4A623AD920B0126500F5F859 /* iMedia Demo AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A623ADA20B0126500F5F859 /* iMedia_Demo_AppTests.swift */,
+				4A623ADC20B0126500F5F859 /* Info.plist */,
+			);
+			path = "iMedia Demo AppTests";
+			sourceTree = "<group>";
+		};
+		4A623AE420B0126500F5F859 /* iMedia Demo AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A623AE520B0126500F5F859 /* iMedia_Demo_AppUITests.swift */,
+				4A623AE720B0126500F5F859 /* Info.plist */,
+			);
+			path = "iMedia Demo AppUITests";
+			sourceTree = "<group>";
+		};
+		4A623AF320B0132D00F5F859 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A69938F20B02A2300DE4082 /* Venues.swift */,
+				4A69938B20B01A6800DE4082 /* Venue.swift */,
+				4AB2E31B20B0732A00B4AA2E /* Location.swift */,
+				4AB2E31D20B0736E00B4AA2E /* VenueImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A623AF420B0133400F5F859 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A623AC720B0126300F5F859 /* MapViewController.swift */,
+				4AB2E31F20B07B1D00B4AA2E /* VenueImagesViewController.swift */,
+				4A43A0FE20B1F6B200F23AE4 /* FullScreenImageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4AB2E32120B081AB00B4AA2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2E32220B081C900B4AA2E /* ImageTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		580230340CE9AD4772C56586 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEECA4BB77A311533BC18D22 /* Pods-iMedia Demo App.debug.xcconfig */,
+				697D73104D3A9ACD253ABF0E /* Pods-iMedia Demo App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A623AC120B0126300F5F859 /* iMedia Demo App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A623AEA20B0126500F5F859 /* Build configuration list for PBXNativeTarget "iMedia Demo App" */;
+			buildPhases = (
+				505308C51382ACD09AA6F515 /* [CP] Check Pods Manifest.lock */,
+				4A623ABE20B0126300F5F859 /* Sources */,
+				4A623ABF20B0126300F5F859 /* Frameworks */,
+				4A623AC020B0126300F5F859 /* Resources */,
+				652475C77C863B3F104B6623 /* [CP] Embed Pods Frameworks */,
+				7B171A822F054DFEC19F76A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iMedia Demo App";
+			productName = "iMedia Demo App";
+			productReference = 4A623AC220B0126300F5F859 /* iMedia Demo App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A623AD520B0126500F5F859 /* iMedia Demo AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A623AED20B0126500F5F859 /* Build configuration list for PBXNativeTarget "iMedia Demo AppTests" */;
+			buildPhases = (
+				4A623AD220B0126500F5F859 /* Sources */,
+				4A623AD320B0126500F5F859 /* Frameworks */,
+				4A623AD420B0126500F5F859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A623AD820B0126500F5F859 /* PBXTargetDependency */,
+			);
+			name = "iMedia Demo AppTests";
+			productName = "iMedia Demo AppTests";
+			productReference = 4A623AD620B0126500F5F859 /* iMedia Demo AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A623AE020B0126500F5F859 /* iMedia Demo AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A623AF020B0126500F5F859 /* Build configuration list for PBXNativeTarget "iMedia Demo AppUITests" */;
+			buildPhases = (
+				4A623ADD20B0126500F5F859 /* Sources */,
+				4A623ADE20B0126500F5F859 /* Frameworks */,
+				4A623ADF20B0126500F5F859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A623AE320B0126500F5F859 /* PBXTargetDependency */,
+			);
+			name = "iMedia Demo AppUITests";
+			productName = "iMedia Demo AppUITests";
+			productReference = 4A623AE120B0126500F5F859 /* iMedia Demo AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A623ABA20B0126300F5F859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = NFerretti;
+				TargetAttributes = {
+					4A623AC120B0126300F5F859 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					4A623AD520B0126500F5F859 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 4A623AC120B0126300F5F859;
+					};
+					4A623AE020B0126500F5F859 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 4A623AC120B0126300F5F859;
+					};
+				};
+			};
+			buildConfigurationList = 4A623ABD20B0126300F5F859 /* Build configuration list for PBXProject "iMedia Demo App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A623AB920B0126300F5F859;
+			productRefGroup = 4A623AC320B0126300F5F859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A623AC120B0126300F5F859 /* iMedia Demo App */,
+				4A623AD520B0126500F5F859 /* iMedia Demo AppTests */,
+				4A623AE020B0126500F5F859 /* iMedia Demo AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A623AC020B0126300F5F859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A69938A20B0192600DE4082 /* MapStyle.json in Resources */,
+				4A623AD020B0126500F5F859 /* LaunchScreen.storyboard in Resources */,
+				4A623ACD20B0126500F5F859 /* Assets.xcassets in Resources */,
+				4A623ACB20B0126300F5F859 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A623AD420B0126500F5F859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A623ADF20B0126500F5F859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		505308C51382ACD09AA6F515 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMedia Demo App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		652475C77C863B3F104B6623 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iMedia Demo App/Pods-iMedia Demo App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/PulsingHalo/PulsingHalo.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PulsingHalo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMedia Demo App/Pods-iMedia Demo App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B171A822F054DFEC19F76A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iMedia Demo App/Pods-iMedia Demo App-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMedia Demo App/Pods-iMedia Demo App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A623ABE20B0126300F5F859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A623AC820B0126300F5F859 /* MapViewController.swift in Sources */,
+				4A623AC620B0126300F5F859 /* AppDelegate.swift in Sources */,
+				4AB2E32020B07B1D00B4AA2E /* VenueImagesViewController.swift in Sources */,
+				4AB2E32320B081C900B4AA2E /* ImageTableViewCell.swift in Sources */,
+				4A69938E20B026DA00DE4082 /* Reachability.swift in Sources */,
+				4A69939020B02A2300DE4082 /* Venues.swift in Sources */,
+				4AB2E31E20B0736E00B4AA2E /* VenueImage.swift in Sources */,
+				4A43A0FF20B1F6B200F23AE4 /* FullScreenImageViewController.swift in Sources */,
+				4AB2E31C20B0732A00B4AA2E /* Location.swift in Sources */,
+				4A69938C20B01A6800DE4082 /* Venue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A623AD220B0126500F5F859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A623ADB20B0126500F5F859 /* iMedia_Demo_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A623ADD20B0126500F5F859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A623AE620B0126500F5F859 /* iMedia_Demo_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A623AD820B0126500F5F859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A623AC120B0126300F5F859 /* iMedia Demo App */;
+			targetProxy = 4A623AD720B0126500F5F859 /* PBXContainerItemProxy */;
+		};
+		4A623AE320B0126500F5F859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A623AC120B0126300F5F859 /* iMedia Demo App */;
+			targetProxy = 4A623AE220B0126500F5F859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A623AC920B0126300F5F859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A623ACA20B0126300F5F859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A623ACE20B0126500F5F859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A623ACF20B0126500F5F859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A623AE820B0126500F5F859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A623AE920B0126500F5F859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A623AEB20B0126500F5F859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEECA4BB77A311533BC18D22 /* Pods-iMedia Demo App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQY39WDSYK;
+				INFOPLIST_FILE = "iMedia Demo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NFerretti.iMedia-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A623AEC20B0126500F5F859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 697D73104D3A9ACD253ABF0E /* Pods-iMedia Demo App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQY39WDSYK;
+				INFOPLIST_FILE = "iMedia Demo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NFerretti.iMedia-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A623AEE20B0126500F5F859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQY39WDSYK;
+				INFOPLIST_FILE = "iMedia Demo AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NFerretti.iMedia-Demo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMedia Demo App.app/iMedia Demo App";
+			};
+			name = Debug;
+		};
+		4A623AEF20B0126500F5F859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQY39WDSYK;
+				INFOPLIST_FILE = "iMedia Demo AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NFerretti.iMedia-Demo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMedia Demo App.app/iMedia Demo App";
+			};
+			name = Release;
+		};
+		4A623AF120B0126500F5F859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQY39WDSYK;
+				INFOPLIST_FILE = "iMedia Demo AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NFerretti.iMedia-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iMedia Demo App";
+			};
+			name = Debug;
+		};
+		4A623AF220B0126500F5F859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FQY39WDSYK;
+				INFOPLIST_FILE = "iMedia Demo AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NFerretti.iMedia-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iMedia Demo App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A623ABD20B0126300F5F859 /* Build configuration list for PBXProject "iMedia Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A623AE820B0126500F5F859 /* Debug */,
+				4A623AE920B0126500F5F859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A623AEA20B0126500F5F859 /* Build configuration list for PBXNativeTarget "iMedia Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A623AEB20B0126500F5F859 /* Debug */,
+				4A623AEC20B0126500F5F859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A623AED20B0126500F5F859 /* Build configuration list for PBXNativeTarget "iMedia Demo AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A623AEE20B0126500F5F859 /* Debug */,
+				4A623AEF20B0126500F5F859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A623AF020B0126500F5F859 /* Build configuration list for PBXNativeTarget "iMedia Demo AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A623AF120B0126500F5F859 /* Debug */,
+				4A623AF220B0126500F5F859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A623ABA20B0126300F5F859 /* Project object */;
+}
