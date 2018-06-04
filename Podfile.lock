@@ -10,8 +10,9 @@ PODS:
   - GooglePlaces (2.6.0):
     - GoogleMaps/Base (= 2.6.0)
   - MBCircularProgressBar (0.3.5)
-  - PulsingHalo (0.2.8)
+  - Pulsator (0.4.1)
   - SCLAlertView (0.8)
+  - Sensitive (5.2.2)
   - SVProgressHUD (2.2.5)
   - SwiftyJSON (3.1.4)
 
@@ -21,8 +22,9 @@ DEPENDENCIES:
   - GoogleMaps
   - GooglePlaces
   - MBCircularProgressBar
-  - PulsingHalo
+  - Pulsator
   - SCLAlertView
+  - Sensitive
   - SVProgressHUD
   - SwiftyJSON (~> 3.1.3)
 
@@ -33,8 +35,9 @@ SPEC REPOS:
     - GoogleMaps
     - GooglePlaces
     - MBCircularProgressBar
-    - PulsingHalo
+    - Pulsator
     - SCLAlertView
+    - Sensitive
     - SVProgressHUD
     - SwiftyJSON
 
@@ -44,11 +47,12 @@ SPEC CHECKSUMS:
   GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
   GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
   MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
-  PulsingHalo: 64938e4bd3893b823abdf01478084cd92445af2b
+  Pulsator: 89a18d0e0ee2f642bb83cb9dfb6b7eebc1dc6241
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  Sensitive: f8bbc08dc950f9253c3fd90438cdcdbb0a750446
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 5d7e5b655f97cdd11813da24f200aa84a02808d5
+PODFILE CHECKSUM: cea2499558a522c962b8a1710d9703c8db5a7f6b
 
 COCOAPODS: 1.5.2

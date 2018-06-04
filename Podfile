@@ -12,8 +12,9 @@ target 'iMedia Demo App' do
   pod 'GoogleMaps'
   pod 'GooglePlaces'
   pod 'MBCircularProgressBar'
-  pod 'PulsingHalo'
+  pod 'Pulsator'
   pod 'SCLAlertView'
+  pod 'Sensitive'
   pod 'SVProgressHUD'
   pod 'SwiftyJSON', '~> 3.1.3'
 

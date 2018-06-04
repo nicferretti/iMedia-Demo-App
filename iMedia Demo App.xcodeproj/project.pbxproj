@@ -19,6 +19,8 @@
 		4A69938C20B01A6800DE4082 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69938B20B01A6800DE4082 /* Venue.swift */; };
 		4A69938E20B026DA00DE4082 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69938D20B026DA00DE4082 /* Reachability.swift */; };
 		4A69939020B02A2300DE4082 /* Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69938F20B02A2300DE4082 /* Venues.swift */; };
+		4A7BA29620C5330A001BAF4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7BA29520C5330A001BAF4F /* Constants.swift */; };
+		4A7BA29820C5400D001BAF4F /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7BA29720C5400D001BAF4F /* Extentions.swift */; };
 		4AB2E31C20B0732A00B4AA2E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2E31B20B0732A00B4AA2E /* Location.swift */; };
 		4AB2E31E20B0736E00B4AA2E /* VenueImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2E31D20B0736E00B4AA2E /* VenueImage.swift */; };
 		4AB2E32020B07B1D00B4AA2E /* VenueImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2E31F20B07B1D00B4AA2E /* VenueImagesViewController.swift */; };
@@ -62,6 +64,8 @@
 		4A69938B20B01A6800DE4082 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		4A69938D20B026DA00DE4082 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		4A69938F20B02A2300DE4082 /* Venues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venues.swift; sourceTree = "<group>"; };
+		4A7BA29520C5330A001BAF4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4A7BA29720C5400D001BAF4F /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		4AB2E31B20B0732A00B4AA2E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		4AB2E31D20B0736E00B4AA2E /* VenueImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueImage.swift; sourceTree = "<group>"; };
 		4AB2E31F20B07B1D00B4AA2E /* VenueImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueImagesViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 		4A623AB920B0126300F5F859 = {
 			isa = PBXGroup;
 			children = (
+				4A7BA29720C5400D001BAF4F /* Extentions.swift */,
+				4A7BA29520C5330A001BAF4F /* Constants.swift */,
 				4A69938920B0192600DE4082 /* MapStyle.json */,
 				4A69938D20B026DA00DE4082 /* Reachability.swift */,
 				4A623AF320B0132D00F5F859 /* Model */,
@@ -359,9 +365,10 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
-				"${BUILT_PRODUCTS_DIR}/PulsingHalo/PulsingHalo.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulsator/Pulsator.framework",
 				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Sensitive/Sensitive.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -369,9 +376,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PulsingHalo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulsator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sensitive.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,12 +415,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A623AC820B0126300F5F859 /* MapViewController.swift in Sources */,
+				4A7BA29620C5330A001BAF4F /* Constants.swift in Sources */,
 				4A623AC620B0126300F5F859 /* AppDelegate.swift in Sources */,
 				4AB2E32020B07B1D00B4AA2E /* VenueImagesViewController.swift in Sources */,
 				4AB2E32320B081C900B4AA2E /* ImageTableViewCell.swift in Sources */,
 				4A69938E20B026DA00DE4082 /* Reachability.swift in Sources */,
 				4A69939020B02A2300DE4082 /* Venues.swift in Sources */,
 				4AB2E31E20B0736E00B4AA2E /* VenueImage.swift in Sources */,
+				4A7BA29820C5400D001BAF4F /* Extentions.swift in Sources */,
 				4A43A0FF20B1F6B200F23AE4 /* FullScreenImageViewController.swift in Sources */,
 				4AB2E31C20B0732A00B4AA2E /* Location.swift in Sources */,
 				4A69938C20B01A6800DE4082 /* Venue.swift in Sources */,

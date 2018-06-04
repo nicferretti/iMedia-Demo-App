@@ -17,10 +17,11 @@ class Venues {
     func findVenues(near location: CLLocationCoordinate2D, completion: @escaping (_ venues: [Venue]?, _ error: Error?) -> ()) {
         let baseUrl = "https://api.foursquare.com/v2/venues/search"
         let parameters: Parameters = [
-            "client_id" : "MOJU2CY2DK41GZJKQVRM1ASCW3JBETAYNBBGY0OQ0ZBREQYL",
-            "client_secret" : "5DROCZ11RBGDTULWFDIZNP2I0QOL5NUIJWFQD3BRZJGZBEET",
+            "client_id" : Constants.Foursquare.clientId,
+            "client_secret" : Constants.Foursquare.clientSecret,
             "ll" : "\(location.latitude),\(location.longitude)",
-            "v": "20180519"
+            "v": "20180519",
+            "limit": 2
         ]
         
         Alamofire.request(baseUrl, method: .get, parameters: parameters).responseJSON { (urlResponse) in

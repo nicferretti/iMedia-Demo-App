@@ -44,7 +44,7 @@ class VenueImagesViewController: UIViewController {
             if success {
                 SVProgressHUD.dismiss()
                 if let _ = venue.images {
-                    self.tableView.reloadData()
+                    self.tableView.animateCellsFromBottom()
                     self.tableView.isHidden = false
                 } else {
                     let appearance = SCLAlertView.SCLAppearance(showCloseButton: false)

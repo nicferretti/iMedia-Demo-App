@@ -70,9 +70,35 @@ extension MapViewController: CLLocationManagerDelegate {
                 guard let venues = venues else {return}
                 self.mapView.clear()
                 for venue in venues {
-                    let marker = GMSMarker(position: venue.location.coordinates)
-                    marker.userData = ["venue" : venue]
-                    marker.map = self.mapView
+                    venue.getThumbnail(completion: { (success, error) in
+                        if success {
+                            //create custom map view marker
+                            let markerFrame = CGRect(x: 0, y: 0, width: 40, height: 40)
+                            let markerView = UIImageView(frame: markerFrame)
+                            markerView.layer.cornerRadius = 20
+                            markerView.layer.borderColor = UIColor.lightGray.cgColor
+                            markerView.layer.borderWidth = 2
+                            markerView.clipsToBounds = true
+                            markerView.backgroundColor = #colorLiteral(red: 0.1452760696, green: 0.201618284, blue: 0.3311567307, alpha: 1)
+                            markerView.image = venue.thumbnail ?? #imageLiteral(resourceName: "imediaLogo")
+                            if let _ = venue.thumbnail {
+                                markerView.contentMode = .scaleAspectFill
+                            } else {
+                                markerView.contentMode = .scaleAspectFit
+                            }
+                            
+                            let marker = GMSMarker(position: venue.location.coordinates)
+                            marker.userData = ["venue" : venue]
+                            marker.groundAnchor = CGPoint(x: 0.5, y: 0.5)
+                            marker.iconView = markerView
+                            marker.appearAnimation = .pop
+                            marker.map = self.mapView
+                        } else {
+                            guard let error = error else {return}
+                            let errorAlert = SCLAlertView()
+                            errorAlert.showError("Uh Oh!", subTitle: error.localizedDescription)
+                        }
+                    })
                 }
             }
         }
